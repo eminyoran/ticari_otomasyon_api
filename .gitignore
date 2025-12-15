@@ -362,6 +362,7 @@ MigrationBackup/
 appsettings.Development.json
 appsettings.Production.json
 
-# Keep appsettings.json template
-!appsettings.json
+# Remove appsettings.json from git (it contains sensitive data)
+# Users should copy appsettings.json.example to appsettings.json and fill in their values
+appsettings.json
 

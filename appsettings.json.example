@@ -1,12 +1,12 @@
 {
   "Jwt": {
-    "Key": "MyUltraLongSuperSecureJwtKey_2025_XYZ_987654321!!",
+    "Key": "Your_Super_Secret_JWT_Key_Minimum_32_Characters_Long",
     "Issuer": "OtomasyonApi",
     "Audience": "OtomasyonApiUsers"
   },
 
   "ConnectionStrings": {
-    "DefaultConnection": "Host=localhost;Port=5432;Database=ticariotomasyon;Username=postgres;Password=123456"
+    "DefaultConnection": "Host=localhost;Port=5432;Database=ticariotomasyon;Username=your_username;Password=your_password"
   },
 
   "Logging": {
@@ -18,3 +18,4 @@
 
   "AllowedHosts": "*"
 }
+
