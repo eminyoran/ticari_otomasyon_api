@@ -57,9 +57,11 @@ git clone https://github.com/eminyoran/ticari_otomasyon_api.git
 cd OtomasyonApi
 ```
 
-2. Veritabanı bağlantı string'ini yapılandırın:
+2. Yapılandırma dosyasını oluşturun:
+   - `appsettings.json.example` dosyasını kopyalayıp `appsettings.json` olarak kaydedin
    - `appsettings.json` dosyasında `ConnectionStrings:DefaultConnection` değerini güncelleyin
-   - Veya `appsettings.Development.json` dosyası oluşturun (bu dosya git'e eklenmez)
+   - JWT Key'i güvenli bir değerle değiştirin
+   - **Not**: `appsettings.json` dosyası git'e eklenmez (güvenlik için)
 
 3. NuGet paketlerini geri yükleyin:
 ```bash
